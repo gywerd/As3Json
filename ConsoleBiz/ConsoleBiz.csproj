@@ -49,5 +49,15 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EntityRepository\EntityRepository.csproj">
+      <Project>{25a37789-743b-47a6-80ff-8ffb34975759}</Project>
+      <Name>EntityRepository</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ServiceIO\ServiceIO.csproj">
+      <Project>{8b920e0d-06ef-4e44-a6ef-3a91df342a23}</Project>
+      <Name>ServiceIO</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
